@@ -640,13 +640,13 @@ pre code {
     }
 }
 
-@media (min-width:1300px) {
+@media (min-width:1360px) {
     .container,
     .container-lg,
     .container-md,
     .container-sm,
     .container-xl {
-        max-width: 1320px
+        max-width: 1350px
     }
 }
 
@@ -1594,7 +1594,7 @@ pre code {
     }
 }
 
-@media (min-width:1300px) {
+@media (min-width:1360px) {
     .col-xl {
         -ms-flex-preferred-size: 0;
         flex-basis: 0;

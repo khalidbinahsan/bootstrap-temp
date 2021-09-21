@@ -325,6 +325,11 @@ body {
     .notify-menu {
         width: 55rem !important;
     }
+    .navbar li {
+        display: unset;
+        justify-content: unset;
+        align-items: unset;
+    }
 }
 
 @media screen and (max-width: 576px) {
