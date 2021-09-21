@@ -209,6 +209,8 @@ body {
 .cat-list:hover {
     background-color: var(--bg-blue) !important;
     color: var(--bg-white);
+    fill: red !important;
+    color: #fff;
 }
 
 .src-wrap-box {
