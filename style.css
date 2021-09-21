@@ -85,6 +85,7 @@ body {
 
 .header-cont {
     background-color: var(--bg-white);
+    box-shadow: 1px 0px 8px 0px #888888;
 }
 
 .brand-brdr {
@@ -128,6 +129,8 @@ body {
     height: 40rem;
     overflow-y: scroll;
     left: -350px;
+    border: none;
+    box-shadow: 1px 0px 8px 0px #888888;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
