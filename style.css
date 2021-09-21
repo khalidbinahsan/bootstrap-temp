@@ -139,6 +139,14 @@ body {
     display: none;
 }
 
+.order-num {
+    color: var(--bg-blue);
+}
+
+.notify-list small {
+    color: var(--bg-ash);
+}
+
 .pro-img {
     height: 6rem;
     width: 6rem;
@@ -148,14 +156,6 @@ body {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-}
-
-.order-num {
-    color: var(--bg-blue);
-}
-
-.notify-list small {
-    color: var(--bg-ash);
 }
 
 
@@ -169,8 +169,8 @@ body {
 .user-img {
     height: 4rem;
     width: 4rem;
-    border-radius: 50%;
     overflow: hidden;
+    border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -223,10 +223,20 @@ body {
 .card-img {
     height: 15rem;
     font-size: 1.4rem;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
 }
 
 .card-body-r {
-    box-shadow: 3px 5px 8px 0px #888888;
+    box-shadow: 1px 0px 8px 0px #888888;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
 }
 
 .card-img1 {
@@ -263,8 +273,29 @@ body {
     }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
     .notify-menu {
-        width: 50rem;
+        width: 55rem !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .notify-menu {
+        width: 34rem !important;
+    }
+    .navbar-brand {
+        font-size: 2rem;
+    }
+    .brand-brdr {
+        height: 2rem;
+    }
+    .noti-details {
+        width: 15rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .notify-menu {
+        width: 30rem !important;
     }
 }
