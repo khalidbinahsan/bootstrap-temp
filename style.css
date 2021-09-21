@@ -118,6 +118,10 @@ body {
     align-items: center;
 }
 
+#navbarCollapse ul li:hover a {
+    color: var(--bg-blue) !important;
+}
+
 .navbar-brand {
     font-size: 3rem;
     color: var(--bg-black);
