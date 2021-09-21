@@ -31,9 +31,43 @@ html {
     --bg-yellow: #FF9800;
 }
 
+
+/* Reusable Class */
+
 p {
     color: var(--bg-ash);
 }
+
+.mt-6 {
+    margin-top: 6rem;
+}
+
+.sec-title {
+    font-size: 3rem;
+    font-family: semi-bold;
+    color: #2F3032;
+}
+
+.dropdown-divider {
+    border-top: 2px solid #DDE3EA
+}
+
+body {
+    background-color: var(--bg-body);
+    font-size: 1.6rem;
+    color: var(--bg-black);
+    font-family: poppins-regular;
+}
+
+
+/* Bootstrap default dropdown hidden */
+
+.dropdown-toggle::after {
+    display: none;
+}
+
+
+/* Buttton Style */
 
 .btn {
     font-size: 1.4rem;
@@ -63,29 +97,9 @@ p {
     color: var(--bg-white);
 }
 
-.mt-6 {
-    margin-top: 6rem;
-}
-
-.sec-title {
-    font-size: 3rem;
-    font-family: semi-bold;
-}
-
-.dropdown-divider {
-    border-top: 3px solid #DDE3EA
-}
-
-body {
-    background-color: var(--bg-body);
-    font-size: 1.6rem;
-    color: var(--bg-black);
-    font-family: poppins-regular;
-}
-
 .header-cont {
     background-color: var(--bg-white);
-    box-shadow: 1px 0px 5px 0px #888888;
+    box-shadow: 0px 4px 10px #E0E5E8;
 }
 
 .brand-brdr {
@@ -96,6 +110,12 @@ body {
 
 .navbar {
     background-color: var(--bg-white);
+}
+
+.navbar li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-brand {
@@ -127,7 +147,7 @@ body {
 
 .notify-menu {
     width: 70rem;
-    height: 40rem;
+    height: 50rem;
     overflow-y: scroll;
     left: -350px;
     border: none;
@@ -234,20 +254,20 @@ body {
 .card-img {
     height: 15rem;
     font-size: 1.4rem;
-    border-radius: 6px 6px 0 0;
-    -webkit-border-radius: 6px 6px 0 0;
-    -moz-border-radius: 6px 6px 0 0;
-    -ms-border-radius: 6px 6px 0 0;
-    -o-border-radius: 6px 6px 0 0;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
 }
 
 .card-body-r {
-    box-shadow: 1px 0px 5px 0px #888888;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
+    box-shadow: 0px 4px 17px #c1c4c7;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .card-img1 {
