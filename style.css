@@ -193,6 +193,7 @@ body {
 .cat-list {
     color: var(--bg-ash);
     border-radius: 30px;
+    cursor: pointer;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
     -ms-border-radius: 30px;
