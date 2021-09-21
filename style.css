@@ -212,8 +212,11 @@ body {
 .cat-list:hover {
     background-color: var(--bg-blue) !important;
     color: var(--bg-white);
-    fill: red !important;
-    color: #fff;
+}
+
+.cat-list:hover svg {
+    fill: #fff !important;
+    color: #fff !important;
 }
 
 .src-wrap-box {
